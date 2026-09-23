@@ -167,6 +167,7 @@ _The entries from 14 August to 21 August record when each stage of the project w
 
 - Moved all website files from a nested folder to the repository root so the project structure matches the required file structure.
 - Connected the live Formspree endpoint to the enquiry form.
+- Added the tagline to the header on the About, Services, Enquiry and Contact pages so all five headers match.
 
 #### Fixed
 
