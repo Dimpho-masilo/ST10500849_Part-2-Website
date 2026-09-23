@@ -1,4 +1,4 @@
-# Rammolai Foundation Website POE Part 1
+# Rammolai Foundation Website POE
 
 ## Project Title
 
@@ -103,7 +103,7 @@ Website/
 ├── enquiry.html
 ├── contact.html
 ├── README.md
-├── css/                 (reserved for Part 2 stylesheets)
+├── css/
 |     └──style.css
 ├── js/                  (reserved for Part 3 scripts)
 └── images/
@@ -112,15 +112,13 @@ Website/
     ├── Shoe-donation.jpg
     └── Shoprite-award.jpg
 ├──Screenshots
-    ├── Screenshots/Desktop-1440.png
-    ├── Screenshots/Tablet 768.png
-    └── Screenshots/Mobile-375.png
+    ├── Desktop-1440.png
+    ├── Tablet-768.png
+    └── Mobile-375.png
 
 ```
 
 Related submission materials (proposals and research content) are stored separately under `ST10500849_Part 1/`.
-
-## Feedback on Part 1 and Changes Made
 
 ## Feedback on Part 1 and Changes Made
 
@@ -164,29 +162,36 @@ _The entries from 14 August to 21 August record when each stage of the project w
 - Connected all project files to GitHub and pushed them in several separate commits, each with a descriptive message.
 - Descriptive code comments and other missing details on all 5 pages, added while checking each file.
 - Screenshots of the home page at desktop, tablet and mobile widths, added to the README.
-- Homepage photos now fill the content width at tablet and desktop sizes, and the call-to-action links have spacing between them.
+
+#### Changed
+
+- Moved all website files from a nested folder to the repository root so the project structure matches the required file structure.
+- Connected the live Formspree endpoint to the enquiry form.
 
 #### Fixed
 
+- Removed an accidental duplicate website subfolder.
+- Removed a duplicate form from `enquiry.html`.
+- Homepage photos now fill the content width at tablet and desktop sizes, and the call-to-action links have spacing between them.
 - Final corrections found while reviewing every page and the README.
 
 ### 2026-09-22
 
 On 22 September I reviewed and retyped all project files to make sure everything was correct, and this entry documents the Part 2 CSS styling work that follows on from the Part 1 feedback.
 
-### Added
+#### Added
 
 - External stylesheet (css/style.css) created and linked to all 5 pages (index.html, about.html, services.html, enquiry.html, contact.html).
-- Google Fonts (Archivo for headings, Source Sans 3 for body text) linked via <link> tags in every page <head>.
+- Google Fonts (Archivo for headings, Source Sans 3 for body text) linked via '<link>' tags in every page '<head>'.
+- Corrected a malformed HTML comment (`<! -- ... -->` with a stray space) in the Google Fonts comment line.
 - CSS reset and base styles: consistent box-sizing, margins, font family, and colour scheme applied site-wide.
 - Full typography scale using font-family, font-size, font-weight, line-height, and letter-spacing.
 - CSS Grid layout for the header (logo, title, and tagline) and Flexbox layout for the navigation menu.
 - Colour and decoration styling: brand colour palette (purple, teal, orange) applied via CSS custom properties, borders, and box-shadows.
 - Pseudo-classes (:hover, :focus-visible, :active, :required:invalid) added to navigation links, body links, form fields, and buttons for interactive feedback.
 - Media queries at 900px (tablet) and 600px (mobile) breakpoints, adjusting layout, typography, navigation, and image sizing responsively.
-- Screenshot evidence of the website at desktop, tablet, and mobile screen widths (see Screenshots section below).
 
-### Fixed
+#### Fixed
 
 - Corrected a stylesheet filename mismatch (styles.css referenced in HTML vs style.css as the actual file name) that was preventing CSS from loading on index.html and about.html.
 - Corrected a malformed HTML comment (<! -- ... --> with a stray space) in the Google Fonts comment line.
