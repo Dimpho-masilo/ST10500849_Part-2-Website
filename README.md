@@ -104,23 +104,75 @@ Website/
 ├── contact.html
 ├── README.md
 ├── css/                 (reserved for Part 2 stylesheets)
+|     └──style.css
 ├── js/                  (reserved for Part 3 scripts)
 └── images/
     ├── logo.jpeg
     ├── Sanitary-drive.jpeg
     ├── Shoe-donation.jpg
     └── Shoprite-award.jpg
+├──Screenshots
+    ├── Screenshots/Desktop-1440.png
+    ├── Screenshots/Tablet 768.png
+    └── Screenshots/Mobile-375.png
+
 ```
 
 Related submission materials (proposals and research content) are stored separately under `ST10500849_Part 1/`.
+
+## Feedback on Part 1 and Changes Made
+
+## Feedback on Part 1 and Changes Made
+
+The Part 1 feedback pointed out gaps in code comments, GitHub commit history, and README and changelog documentation. Each item below records what was changed in response.
+
+### Code Comments
+
+- **Owner:** Dimpho Masilo | **Timeline:** 22 Sep 2026 – 23 Sep 2026 | **Status:** Completed
+- **Details:** Reviewed all 5 pages and added descriptive comments above each major section (`<header>`, `<nav>`, `<main>`, `<footer>`) and the enquiry form, so the code is explained clearly.
+
+### GitHub Commit History
+
+- **Owner:** Dimpho Masilo | **Timeline:** 23 Sep 2026 – 23 Sep 2026 | **Status:** Completed
+- **Details:** Connected all project files to GitHub and pushed them in several separate commits, each with a descriptive message.
+
+### README and Changelog
+
+- **Owner:** Dimpho Masilo | **Timeline:** 22 Sep 2026 – 23 Sep 2026 | **Status:** Completed
+- **Details:** Completed the README with the project overview, goals, features, timeline, sitemap and folder structure, and added a dated changelog grouped into Added, Changed and Fixed.
+
+### Content and Site Structure
+
+- **Owner:** Dimpho Masilo | **Timeline:** 17 Sep 2026 – 17 Sep 2026 | **Status:** Completed
+- **Details:** Added a dedicated **Our Team** section on `about.html`, a hero image on the homepage, and a second location with a map (Kgabo Primary School, Atteridgeville) on `contact.html`.
+
+### Code Quality and References
+
+- **Owner:** Dimpho Masilo | **Timeline:** 17 Sep 2026 – 17 Sep 2026 | **Status:** Completed
+- **Details:** Replaced uppercase `<P>` tags with lowercase `<p>`, corrected spelling and grammar errors, standardised page titles, and removed duplicate reference entries.
 
 ## Changelog
 
 All notable changes to the Rammolai Foundation website project are documented below.
 
+_The entries from 14 August to 21 August record when each stage of the project was worked on. The files were only added to GitHub on 23 September 2026._
+
+### 2026-09-23
+
+#### Added
+
+- Connected all project files to GitHub and pushed them in several separate commits, each with a descriptive message.
+- Descriptive code comments and other missing details on all 5 pages, added while checking each file.
+- Screenshots of the home page at desktop, tablet and mobile widths, added to the README.
+- Homepage photos now fill the content width at tablet and desktop sizes, and the call-to-action links have spacing between them.
+
+#### Fixed
+
+- Final corrections found while reviewing every page and the README.
+
 ### 2026-09-22
 
-The following changes were made in response to lecturer feedback on Part 1 and Part 2 requirements. The original Part 1 feedback noted that HTML pages and GitHub commit evidence were not clearly visible; the commit history has since been corrected to show multiple, descriptive commits, and this entry documents the Part 2 CSS styling work that follows on from that.
+On 22 September I reviewed and retyped all project files to make sure everything was correct, and this entry documents the Part 2 CSS styling work that follows on from the Part 1 feedback.
 
 ### Added
 
@@ -193,18 +245,21 @@ The following changes were made in response to lecturer feedback on Part 1 and P
 - Initial wireframe mockups for user interface planning.
 - Finalised project proposal and selection scope for the **Rammolai Foundation**.
 
-### Screenshots
+## Screenshots
 
 Screenshots below show the website's responsive behaviour at three screen widths, tested using browser developer tools.
 
-Desktop (~1440px)
-[Insert desktop screenshot here]
+**Desktop (1440px)**
 
-Tablet (~768px)
-[Insert tablet screenshot here]
+![Desktop view at 1440px](Screenshots/Desktop-1440.png)
 
-Mobile (~375px)
-[Insert mobile screenshot here]
+**Tablet (768px)**
+
+![Tablet view at 768px](Screenshots/Tablet-768.png)
+
+**Mobile (375px)**
+
+![Mobile view at 375px](Screenshots/Mobile-375.png)
 
 ## References
 
